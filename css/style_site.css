@@ -191,6 +191,8 @@ a:hover {
     /* overflow: hidden; */
     /* border-top: 5px solid #00759a; */
     background-image: url(../img/img-6.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
     /* background: -moz-linear-gradient(top, rgba(56, 140, 186, 1) 0%, rgba(129, 165, 186, 1) 60%, rgba(156, 175, 186, 1) 81%, rgba(175, 182, 186, 1) 100%);
     background: -webkit-linear-gradient(top, rgba(56, 140, 186, 1) 0%, rgba(129, 165, 186, 1) 60%, rgba(156, 175, 186, 1) 81%, rgba(175, 182, 186, 1) 100%);
     background: linear-gradient(to bottom, rgba(56, 140, 186, 1) 0%, rgba(129, 165, 186, 1) 60%, rgba(156, 175, 186, 1) 81%, rgba(175, 182, 186, 1) 100%);
@@ -388,6 +390,10 @@ a:hover {
     line-height: 40px;
     font-size: 16px;
     color: #444;
+}
+
+.list_dropdownmenu li:hover {
+    box-shadow: 2px 1px 15px #ddd;
 }
 
 .list_dropdownmenu li a span {
