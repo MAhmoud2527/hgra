@@ -1165,7 +1165,7 @@ li.tab.fancyTab.active {}
 
 .tabs {
     position: relative;
-    padding-top: 65px;
+    padding-top: 75px;
     border-radius: 15px;
     margin-bottom: 45px;
     box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
@@ -1237,7 +1237,7 @@ li.tab.fancyTab.active {}
     height: 30px;
     overflow: hidden;
     line-height: 30px;
-    color: #fff;
+    color: #00759a;
 }
 
 .title_country {
@@ -1268,12 +1268,17 @@ li.tab.fancyTab.active {}
 }
 
 .title_country_america {
-    background: url(../img/flag/canada.png) no-repeat;
-    background-position: center center;
-    -webkit-background-size: cover;
+    background: url(../img/flag/usapng.png) no-repeat;
+    background-position: left top;
+    /* -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    background-size: cover;
+    background-size: cover; */
+}
+
+.tabs:hover .title_country_america {
+    background-position: right top;
+    transition: all .6s;
 }
 
 .title_country_saudi {
