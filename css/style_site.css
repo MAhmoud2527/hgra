@@ -1653,8 +1653,9 @@ li.tab.fancyTab.active {}
     margin: 14px auto;
     border: none;
     padding: 5px 31px;
-    font-size: 22px;
+    font-size: 15px;
     position: relative;
+    margin: 0 76px 0 0;
 }
 
 .learn-btn .fa-arrow-right {
@@ -1667,7 +1668,7 @@ li.tab.fancyTab.active {}
 .learn-btn::before {
     transition: all 0.85s cubic-bezier(0.68, -0.55, 0.265, 1.55);
     content: '';
-    width: 30%;
+    width: 40%;
     height: 100%;
     background: #00759a;
     position: absolute;
@@ -1704,6 +1705,10 @@ li.tab.fancyTab.active {}
     top: 118px;
     left: 97px;
 } */
+
+.caption2 h3 {
+    margin: 16px 0;
+}
 
 .caption2 .mintitle {
     display: inline-block;
@@ -1742,6 +1747,11 @@ li.tab.fancyTab.active {}
     text-align: center;
     width: 36px;
     height: 36px;
+}
+
+.caption2 .sl-loader:hover {
+    color: #fff;
+    background-color: #ff4545
 }
 
 .caption2 .sl-count {
