@@ -138,10 +138,10 @@ transition: all 0s ease 0s;
 * {
     font-family: 'Elmessiri';
     outline: 0;
-    -webkit-transition: all 0.3s ease;
+    /* -webkit-transition: all 0.3s ease;
     -moz-transition: all 0.3s ease;
     -o-transition: all 0.3s ease;
-    transition: all 0.3s ease;
+    transition: all 0.3s ease; */
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
@@ -366,8 +366,8 @@ a:hover {
 .nav_menu nav ul>li>a:active:before {
     -webkit-transform: scaleY(1);
     transform: scaleY(1);
-    -webkit-transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
-    transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
+    /* -webkit-transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
+    transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66); */
 }
 
 .nav_menu nav>ul>li.active>a:before {
@@ -609,6 +609,11 @@ a:hover {
     position: relative;
     max-width: 810px;
     margin: 0 auto;
+    transition: all 0s ease 0s;
+    -webkit-transition: all 0s ease 0s;
+    -moz-transition: all 0s ease 0s;
+    -o-transition: all 0s ease 0s;
+    -ms-transition: all 0s ease 0s;
 }
 
 .search_inblog:hover {
