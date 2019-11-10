@@ -1678,5 +1678,9 @@ li.tab.fancyTab.active {}
 .learn-btn:hover::before {
     background: #00759a;
     width: 100%;
-    color: #fff;
+}
+
+.btn-text {
+    color: #000;
+    mix-blend-mode: hard-light;
 }
