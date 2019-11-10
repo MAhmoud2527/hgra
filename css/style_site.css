@@ -1659,7 +1659,7 @@ li.tab.fancyTab.active {}
 
 .learn-btn .fa-arrow-right {
     position: absolute;
-    top: 2px;
+    top: 0px;
     right: 8px;
     color: #000;
 }
