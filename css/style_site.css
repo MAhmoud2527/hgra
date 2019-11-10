@@ -1115,6 +1115,7 @@ li.tab.fancyTab.active {}
     overflow: hidden;
     line-height: 39px;
     position: relative;
+    margin-bottom: 40px;
 }
 
 .title_blogs h3:before {
@@ -1279,7 +1280,7 @@ li.tab.fancyTab.active {}
 }
 
 .title_country_america {
-    background: url(../img/flag/usapng.png) no-repeat;
+    /* background: url(../img/flag/usapng.png) no-repeat; */
     background-position: left top;
     /* -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -1287,13 +1288,8 @@ li.tab.fancyTab.active {}
     background-size: cover; */
 }
 
-.tabs:hover .title_country_america {
-    background-position: right top;
-    transition: all .6s;
-}
-
 .title_country_saudi {
-    background: url(../img/saudi.jpg) no-repeat;
+    /* background: url(../img/saudi.jpg) no-repeat; */
     background-position: center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -1395,6 +1391,8 @@ li.tab.fancyTab.active {}
 .copyright p a {
     color: #00546f;
     text-shadow: none;
+    font-size: 16px;
+    font-weight: 900;
 }
 
 .highlight {
@@ -1529,4 +1527,93 @@ li.tab.fancyTab.active {}
     right: 0;
     bottom: 0;
     background-color: rgba(0, 0, 0, 0.64);
+}
+
+.flagimg {
+    position: absolute;
+    top: -30px;
+    right: 6px;
+    box-shadow: -6px 6px 20px 1px #fff;
+}
+
+.title_country h3:before {
+    content: '';
+    position: absolute;
+    bottom: 43px;
+    height: 1px;
+    width: 283px;
+    background: #00759a;
+    left: 0;
+}
+
+.title_country h3:after {
+    content: '';
+    position: absolute;
+    bottom: 36px;
+    height: 1px;
+    width: 80px;
+    background: #00759a;
+    left: 0;
+}
+
+#header2 {
+    position: relative;
+    display: block;
+    min-height: 638px;
+    /* overflow: hidden; */
+    /* border-top: 5px solid #00759a; */
+    background-image: url(../img/img-5.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    min-height: 521px;
+}
+
+#header2:after {
+    background: url(../img/vedio-section.png) no-repeat;
+    background-position: center bottom;
+    background-size: 100%;
+    content: "";
+    display: block;
+    height: 100%;
+    position: absolute;
+    width: 100%;
+    bottom: -1px;
+    left: 0;
+    right: 0;
+    z-index: 0;
+}
+
+.cart_blocks_sections {
+    margin-top: 0;
+    margin-bottom: 25px;
+}
+
+.cart_blocks_sections .title_blogs h3 {
+    margin-bottom: 19px;
+}
+
+.cart_blocks_sections .thumbnail img {
+    min-height: 250px;
+    max-height: 250px;
+}
+
+.readBtn {
+    text-align: center;
+}
+
+.learn-btn {
+    display: inline-block;
+    padding: 8px 25px;
+    border: 2px solid #fff;
+    border-radius: 3px;
+    color: #fff;
+    font-size: 16px;
+    transition: all .5s;
+}
+
+.learn-btn:hover,
+.learn-btn:focus {
+    border-color: #73d0da;
+    color: #ddd;
+    text-decoration: none;
 }
