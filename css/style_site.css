@@ -1689,6 +1689,7 @@ li.tab.fancyTab.active {}
 .thumbnail .col-md-5 img {
     min-height: 350px;
     max-height: 350px;
+    margin-top: 55px;
 }
 
 .thumbnail .caption2 {
