@@ -1919,4 +1919,15 @@ blockquote cite {
     margin-top: 10px;
     font-size: 14px;
     position: relative;
+    padding-right: 25px;
+}
+
+blockquote cite:before {
+    position: absolute;
+    content: '';
+    right: 0px;
+    bottom: 9px;
+    width: 16px;
+    height: 4px;
+    background-color: #ab477d;
 }
