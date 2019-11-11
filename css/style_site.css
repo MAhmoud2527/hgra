@@ -2172,6 +2172,7 @@ blockquote cite:before {
     /* padding: 25px 0 0; */
     border-top: solid 1px #3692af;
     position: relative;
+    margin-bottom: 60px;
 }
 
 .nav-post-links .nav-post {
@@ -2222,4 +2223,63 @@ blockquote cite:before {
     left: 28px;
     font-size: 23px;
     cursor: pointer;
+}
+
+.related_Post {
+    padding: 60px 0;
+    height: 500px;
+}
+
+.related_Post img {
+    max-height: 250px;
+    min-height: 250px;
+    margin-top: 30px;
+}
+
+.related_Post .related_Post_title {
+    font-size: 24px;
+    padding: 10px 0 20px 20px;
+}
+
+.related_Post .related_Post_category {
+    font-size: 14px;
+    padding: 6px 15px;
+    border: solid 1px #00759a;
+    border-radius: 20px;
+}
+
+.related_Post_info {
+    line-height: 1.7;
+    font-size: 14px;
+    text-align: justify;
+    padding-top: 20px;
+}
+
+.form-Comment .input-group {
+    display: block;
+}
+
+.form-Comment .input-group .form-control {
+    border-radius: 30px;
+    color: #00759a;
+    padding: 10px 26px;
+    background-color: rgba(64, 166, 255, .1);
+    margin-bottom: 30px;
+}
+
+.form-Comment .input-group[textarea] {
+    border-radius: 30px;
+    color: #00759a;
+    padding: 10px 26px;
+}
+
+.submit {
+    font-size: 16px;
+    padding: 7px 31px;
+    margin: 30px 0 0;
+    border-color: #ffffff;
+    background-color: #00759a;
+    color: #ffffff;
+    border-radius: 31px;
+    box-shadow: -2px 2px 9px 0px #ddd;
 }
