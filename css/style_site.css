@@ -2213,6 +2213,7 @@ blockquote cite:before {
     top: 37px;
     right: 28px;
     font-size: 23px;
+    cursor: pointer;
 }
 
 .arrow_post .fa-arrow-left {
@@ -2220,4 +2221,5 @@ blockquote cite:before {
     top: 37px;
     left: 28px;
     font-size: 23px;
+    cursor: pointer;
 }
