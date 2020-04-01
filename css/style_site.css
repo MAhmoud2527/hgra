@@ -271,10 +271,17 @@ a:hover {
     margin: 11px 0;
 }
 
-.logs1 {}
+.logs1 {
+    font-size: 31px;
+    color: #fff;
+    font-weight: bold;
+}
 
 .logs2 {
-    display: none
+    display: none;
+    font-size: 31px;
+    color: #000;
+    font-weight: bold;
 }
 
 .head-sticky .logs2 {
